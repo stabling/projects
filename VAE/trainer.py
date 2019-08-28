@@ -1,11 +1,16 @@
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
+import torchvision.utils as utils
 import torch
 import torch.nn as nn
 import os
 import argparse
+import matplotlib.pyplot as plt
+import numpy as np
+from dataset import MyData
 from Net import MainNet
-from utils.optims import Lookahead, RAdam
+from loss import en_loss
+from utils.optims import Lookahead
 from torch.utils.tensorboard import SummaryWriter
 
 
@@ -16,12 +21,12 @@ def argparser():
     """
     parser = argparse.ArgumentParser(description="base parameters for network training")
     parser.add_argument("-r", "--resume", type=bool, default=True, help="if specified starts from checkpoint")
-    parser.add_argument("-e", "--epochs", type=int, default=128, help="number of epochs")
+    parser.add_argument("-e", "--epochs", type=int, default=512, help="number of epochs")
     parser.add_argument("-b", "--batch_size", type=int, default=512, help="batch size")
-    parser.add_argument("-n", "--ncpu", type=int, default=8, help="number of cpu threads used during batch generation")
+    parser.add_argument("-n", "--ncpu", type=int, default=4, help="number of cpu threads used during batch generation")
     parser.add_argument("-p", "--print_freq", type=int, default=10, help="print frequency")
     parser.add_argument("-c", "--chkpt_dir", type=str, default="checkpoints/", help="directory saved checkpoints")
-    parser.add_argument("-m", "--module_name", type=str, default="model.pt", help="save model name")
+    parser.add_argument("-m", "--module_name", type=str, default="autoencoder.pkl", help="save model name")
     parser.add_argument("-l", "--learning_rate", type=float, default=1e-3, help="learning rate for gradient descent")
     return parser.parse_args()
 
@@ -38,18 +43,18 @@ class Trainer:
         self.net = model().to(self.device)
         # 非命令行参数部分
         self.transform = transforms.Compose([
-            transforms.RandomCrop(32, padding=4),
-            transforms.RandomHorizontalFlip(),
             transforms.ToTensor(),
-            transforms.Normalize((0.49139968, 0.48215827, 0.44653124), (0.24703233, 0.24348505, 0.26158768)),
         ])
-        self.train_dataset = datasets.CIFAR10("data/", train=True, transform=self.transform, download=True)
-        self.val_dataset = datasets.CIFAR10("data/", train=False, transform=self.transform, download=False)
+        self.train_dataset = datasets.MNIST("data", train=True, transform=self.transform, download=True)
+        self.val_dataset = datasets.MNIST("data", train=False, transform=self.transform, download=False)
         self.train_loader = DataLoader(self.train_dataset, self.args.batch_size, shuffle=True,
                                        num_workers=self.args.ncpu)
         self.val_loader = DataLoader(self.val_dataset, self.args.batch_size, shuffle=True, num_workers=self.args.ncpu)
-        self.optimizer = Lookahead(RAdam(self.net.parameters(), lr=self.args.learning_rate))
-        self.loss_fn = nn.CrossEntropyLoss()
+
+        self.optimizer = Lookahead(
+            torch.optim.Adam(self.net.parameters(), lr=self.args.learning_rate))
+        self.de_loss_fn = nn.MSELoss(reduction="sum")
+        self.en_loss_fn = en_loss()
         self.writer = SummaryWriter()
         self.epoch = 0
 
@@ -64,23 +69,28 @@ class Trainer:
             print("epoch------------", self.epoch + 1)
             self.epoch += 1
             self.train()
-            self.validate()
 
     def train(self):
-        for i, (x, y) in enumerate(self.train_loader):
-            x, y = x.to(self.device), y.to(self.device)
-            out = self.net(x)
-            loss = self.loss_fn(out, y)
+        for i, (x, _) in enumerate(self.train_loader):
+            x = x.to(self.device)
+            out, logsigma, miu = self.net(x)
+            en_loss = self.en_loss_fn.main(logsigma, miu)
+            de_loss = self.de_loss_fn(out, x)
+            loss = 0.5 * de_loss + 0.5 * en_loss
 
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
 
             if i % self.args.print_freq == 0:
-                print("loss: ", loss.item())
+                print("loss: ", loss.item(), "de_loss: ", de_loss.item(), "en_loss: ", en_loss.item())
+            # if i == len(self.train_loader) - 1:
+            #     show_x = x[:32].detach().cpu()
+            #     show_out = out[:32].detach().cpu()
+            #     show_pic = torch.cat([show_x, show_out], dim=0)
+            #     plt.imshow(np.transpose(utils.make_grid(show_pic), (1, 2, 0)))
+            #     plt.show()
             self.writer.add_scalar("loss", loss.detach().cpu().numpy(), global_step=i % self.args.print_freq)
-            self.writer.add_histogram("weight", self.net.layer[0].weight.detach().cpu().numpy(),
-                                      global_step=i % self.args.print_freq)
         torch.save(self.net.state_dict(), os.path.join(self.args.chkpt_dir, self.args.module_name))
 
     def validate(self):
