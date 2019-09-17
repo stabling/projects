@@ -1,62 +1,55 @@
-import torch
 from torch.utils.data import Dataset
+import torchvision
 import numpy as np
 import cfg
 import os
-from torchvision import transforms
-
 from PIL import Image
 import math
 
-LABEL_FILE_PATH = r"/home/yzs/dataset/tiny_coco/Anno/Anno_list.txt"
-IMG_BASE_DIR = r"/home/yzs/dataset/tiny_coco"
-
-transform = transforms.Compose([
-    transforms.ToTensor(),
-    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
+transforms = torchvision.transforms.Compose([
+    torchvision.transforms.Resize((416, 416)),
+    torchvision.transforms.ToTensor()
 ])
-
-
-def one_hot(cls_num, v):
-    b = np.zeros(cls_num)
-    b[v] = 1
-    return b
 
 
 class MyDataset(Dataset):
 
     def __init__(self):
-        with open(LABEL_FILE_PATH) as f:
+        with open(cfg.LABEL_FILE) as f:
             self.dataset = f.readlines()
 
-    def __getitem__(self, x):
+    def __len__(self):
+        return len(self.dataset)
+
+    def __getitem__(self, index):
         labels = {}
-        line = self.dataset[x]
-        strs = line.strip().split()
-        _img_data = Image.open(os.path.join(IMG_BASE_DIR, strs[0]))
-        img_data = transform(_img_data)
+
+        line = self.dataset[index]
+        strs = line.split()
+        _img_data = Image.open(os.path.join(cfg.IMG_BASE_DIR, strs[0]))
+        img_data = transforms(_img_data)
 
         _boxes = np.array([float(x) for x in strs[1:]])
         boxes = np.split(_boxes, len(_boxes) // 5)
 
-        for feature_size, anchors in cfg.ANCHOR_GROUPS.items():
-            labels[feature_size] = np.zeros(shape=(feature_size, feature_size, 3, 5 + cfg.CLASS_NUM))
+        for feature_size, anchors in cfg.ANCHORS_GROUP.items():
+            labels[feature_size] = np.zeros(shape=(feature_size, feature_size, 3, 6), dtype=np.float32)
 
             for box in boxes:
                 cls, cx, cy, w, h = box
-                cx_offset, cx_index = math.modf(cx * feature_size / cfg.IMAGE_WIDTH)
-                cy_offset, cy_index = math.modf(cy * feature_size / cfg.IMAGE_HEIGHT)
+                cx_offset, cx_index = math.modf(cx * feature_size / cfg.IMG_WIDTH)
+                cy_offset, cy_index = math.modf(cy * feature_size / cfg.IMG_WIDTH)
 
                 for i, anchor in enumerate(anchors):
-                    anchor_area = anchor[0] * anchor[1]
+                    anchor_area = cfg.ANCHORS_GROUP_AREA[feature_size][i]
                     p_w, p_h = w / anchor[0], h / anchor[1]
-                    p_area = w * h
-                    inter_area = min(w, anchor[0]) * min(h, anchor[1])
-                    iou = inter_area / (p_area + anchor_area - inter_area)
+                    box_area = w * h
+
+                    # 计算置信度(同心框的IOU(交并))
+                    inter = np.minimum(w, anchor[0]) * np.minimum(h, anchor[1])  # 交集
+                    conf = inter / (box_area + anchor_area - inter)
+
                     labels[feature_size][int(cy_index), int(cx_index), i] = np.array(
-                        [iou, cx_offset, cy_offset, np.log(p_w), np.log(p_h), *one_hot(cfg.CLASS_NUM, int(cls))])
+                        [cx_offset, cy_offset, np.log(p_w), np.log(p_h), conf, int(cls)])
 
-        return torch.Tensor(labels[13]), torch.Tensor(labels[26]), torch.Tensor(labels[52]), img_data
-
-    def __len__(self):
-        return len(self.dataset)
+        return labels[13], labels[26], labels[52], img_data

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06a4c126-3fbf-4346-891d-8c3a607a16d0" name="Default Changelist" comment="" />
+    <list default="true" id="498a675b-dadd-4da8-ab94-8e7ba42c79a4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,58 +11,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Darknet53.py">
+        <entry file="file://$PROJECT_DIR$/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+            <state relative-caret-position="696">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trainer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="87" column="23" lean-forward="true" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+            <state relative-caret-position="217">
+              <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -71,37 +35,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coco_pro/process.py">
+        <entry file="file://$PROJECT_DIR$/pic_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="203">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/pic.py">
+        <entry file="file://$PROJECT_DIR$/cfg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="145">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="5" column="5" selection-start-line="5" selection-end-line="5" selection-end-column="33" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/convert_txt.py">
+        <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="986">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -115,54 +85,51 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>UpsampleLayer</find>
+      <find>nsm</find>
+      <find>print</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/train.py" />
-        <option value="$PROJECT_DIR$/pic.py" />
-        <option value="$PROJECT_DIR$/utils/change_xml.py" />
-        <option value="$PROJECT_DIR$/label/label.txt" />
+        <option value="$PROJECT_DIR$/data/person_label.txt" />
+        <option value="$PROJECT_DIR$/Drone/mobilenetV3.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Drone/data/person_label.txt" />
+        <option value="$PROJECT_DIR$/test01.py" />
+        <option value="$PROJECT_DIR$/Drone/dataset.py" />
+        <option value="$PROJECT_DIR$/Drone/darknet53.py" />
+        <option value="$PROJECT_DIR$/module.py" />
+        <option value="$PROJECT_DIR$/data/test01.py" />
+        <option value="$PROJECT_DIR$/data/coco/test01.py" />
+        <option value="$PROJECT_DIR$/convert.py" />
+        <option value="$PROJECT_DIR$/coco_convert.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/json.py" />
-        <option value="$PROJECT_DIR$/file.py" />
-        <option value="$PROJECT_DIR$/find_txt.py" />
-        <option value="$PROJECT_DIR$/ss_json.py" />
-        <option value="$PROJECT_DIR$/label.txt" />
-        <option value="$PROJECT_DIR$/check_pic.py" />
-        <option value="$PROJECT_DIR$/utils/check_pic.py" />
-        <option value="$PROJECT_DIR$/label_pro.py" />
-        <option value="$PROJECT_DIR$/coco_pro/process.py" />
-        <option value="$PROJECT_DIR$/net.py" />
-        <option value="$PROJECT_DIR$/img/label.txt" />
-        <option value="$PROJECT_DIR$/p_dataset.py" />
-        <option value="$PROJECT_DIR$/utils/pic.py" />
-        <option value="$PROJECT_DIR$/convert_txt.py" />
-        <option value="$PROJECT_DIR$/cfg.py" />
-        <option value="$PROJECT_DIR$/trainer.py" />
-        <option value="$PROJECT_DIR$/Darknet53.py" />
-        <option value="$PROJECT_DIR$/dataset.py" />
-        <option value="$PROJECT_DIR$/detector.py" />
+        <option value="$PROJECT_DIR$/cfy/darknet53.py" />
+        <option value="$PROJECT_DIR$/darknet53.py" />
+        <option value="$PROJECT_DIR$/cfy/detect1.py" />
         <option value="$PROJECT_DIR$/utils.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/camera.py" />
+        <option value="$PROJECT_DIR$/test_camera.py" />
+        <option value="$PROJECT_DIR$/test_pic.py" />
+        <option value="$PROJECT_DIR$/dataset.py" />
+        <option value="$PROJECT_DIR$/data/coco_label.txt" />
+        <option value="$PROJECT_DIR$/trainer.py" />
+        <option value="$PROJECT_DIR$/detector.py" />
+        <option value="$PROJECT_DIR$/cfg.py" />
+        <option value="$PROJECT_DIR$/pic_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="27" />
-    <option name="width" value="925" />
-    <option name="height" value="1053" />
+    <option name="x" value="993" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -173,23 +140,25 @@
         <subPane>
           <expand>
             <path>
-              <item name="yolo-v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolo-v3" type="462c0819:PsiDirectoryNode" />
+              <item name="MyYoloV3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyYoloV3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yolo-v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolo-v3" type="462c0819:PsiDirectoryNode" />
-              <item name="coco_pro" type="462c0819:PsiDirectoryNode" />
+              <item name="MyYoloV3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyYoloV3" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yolo-v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolo-v3" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="MyYoloV3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyYoloV3" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="coco" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yolo-v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yolo-v3" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="MyYoloV3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyYoloV3" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,20 +167,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="D:\project\project2.0\yolo-v3" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\project2.0\yolo-v3\utils" />
-      <recent name="D:\project\project2.0\yolo-v3\img" />
-      <recent name="D:\project\project2.0\yolo-v3\label" />
-      <recent name="D:\project\project2.0\yolo-v3\xml" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3\FO" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3\data\coco" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3\Drone" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3\Person" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NEW\MyYoloV3\data\images" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3\weights" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3\cfy" />
+      <recent name="C:\Users\qinrui\PycharmProjects\MyYoloV3\data\coco" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,9 +198,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.detector">
-    <configuration name="Darknet53" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-v3" />
+  <component name="RunManager" selected="Python.pic_test">
+    <configuration name="camera_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyYoloV3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -239,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Darknet53.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/camera_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +221,7 @@
       <method v="2" />
     </configuration>
     <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-v3" />
+      <module name="MyYoloV3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -269,8 +241,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-v3" />
+    <configuration name="pic_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyYoloV3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -281,7 +253,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pic_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +263,7 @@
       <method v="2" />
     </configuration>
     <configuration name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-v3" />
+      <module name="MyYoloV3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -311,379 +283,206 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="yolo-v3" />
+    <configuration name="pytest in pic_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="MyYoloV3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pic_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.camera_test" />
+      <item itemvalue="Python.dataset" />
+      <item itemvalue="Python.pic_test" />
+      <item itemvalue="Python.trainer" />
+      <item itemvalue="Python tests.pytest in pic_test.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.detector" />
-        <item itemvalue="Python.utils" />
-        <item itemvalue="Python.Darknet53" />
+        <item itemvalue="Python.pic_test" />
+        <item itemvalue="Python.camera_test" />
         <item itemvalue="Python.trainer" />
         <item itemvalue="Python.dataset" />
+        <item itemvalue="Python tests.pytest in pic_test.py" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="06a4c126-3fbf-4346-891d-8c3a607a16d0" name="Default Changelist" comment="" />
-      <created>1562119096051</created>
+      <changelist id="498a675b-dadd-4da8-ab94-8e7ba42c79a4" name="Default Changelist" comment="" />
+      <created>1554725716400</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562119096051</updated>
+      <updated>1554725716400</updated>
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_main_py - 2019.04.10 at 16h 42m 31s.xml">
+      <configuration name="pytest in main.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_main_py - 2019.04.10 at 16h 42m 45s.xml">
+      <configuration name="pytest in main.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_pic_py - 2019.07.12 at 15h 53m 02s.xml">
+      <configuration name="pytest in test_pic.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.112390354" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32893288" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4223947" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4645233" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116100766" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27843988" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.24973656" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trainer.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/utils.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/utils.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/utils.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/software/Anaconda/Lib/site-packages/torchvision/datasets/__init__.py" />
-    <entry file="file://D:/software/Anaconda/Lib/site-packages/torchvision/__init__.py" />
-    <entry file="file://D:/software/Anaconda/Lib/site-packages/torchvision/transforms/transforms.py" />
-    <entry file="file://D:/software/Anaconda/Lib/site-packages/torch/__init__.pyi" />
-    <entry file="file://D:/software/Anaconda/Lib/site-packages/torch/serialization.py" />
-    <entry file="file://D:/software/Anaconda/Lib/site-packages/torch/nn/modules/module.py" />
-    <entry file="file://D:/software/Anaconda/Lib/site-packages/PIL/ImageDraw.py" />
-    <entry file="file://$PROJECT_DIR$/file.py" />
-    <entry file="file://$PROJECT_DIR$/pycocotools/_mask.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instances_train2017.json" />
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/15.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/12.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/144.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/146.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/new_pic/148.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file.txt" />
-    <entry file="file://$PROJECT_DIR$/ss_json.py" />
-    <entry file="file://$PROJECT_DIR$/find_txt.py" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/utils/check_pic.py">
+    <entry file="file://$PROJECT_DIR$/models.py" />
+    <entry file="file://$PROJECT_DIR$/../.PyCharmCE2018.3/system/python_stubs/-1144045305/numpy/core/_multiarray_umath.py" />
+    <entry file="file://$PROJECT_DIR$/Person/data/person_label.txt" />
+    <entry file="file://$PROJECT_DIR$/Person/data/images/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/torch/utils/data/dataloader.py" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/torch/utils/data/dataset.py" />
+    <entry file="file://$PROJECT_DIR$/pycocotools/_mask.c" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/pip/_internal/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/pandas/core/internals.py" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/pkgs/pandas-0.23.0-py36h830ac7b_0/Lib/site-packages/pandas/core/resample.py" />
+    <entry file="file://$PROJECT_DIR$/Drone/dataset_bak.py" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/pip/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/pip/__main__.py" />
+    <entry file="file://$PROJECT_DIR$/Drone/data/person_label.txt" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/torchvision/models/detection/rpn.py" />
+    <entry file="file://$PROJECT_DIR$/tool.py" />
+    <entry file="file://$PROJECT_DIR$/Drone/mobilenetV3.py" />
+    <entry file="file://$PROJECT_DIR$/Drone/dataset.py" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/torchvision/models/detection/faster_rcnn.py" />
+    <entry file="file://$PROJECT_DIR$/Drone/darknet53.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/Person/darknet53.py" />
+    <entry file="file://$PROJECT_DIR$/Person/dataset.py" />
+    <entry file="file://$PROJECT_DIR$/test01.py" />
+    <entry file="file://$PROJECT_DIR$/data/coco/captions_train2017.json" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/pycocotools/coco.py" />
+    <entry file="file://$PROJECT_DIR$/data/person_label.txt" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/torch/__init__.pyi" />
+    <entry file="file://$PROJECT_DIR$/cfy/darknet53.py" />
+    <entry file="file://$PROJECT_DIR$/cfy/test.py" />
+    <entry file="file://$PROJECT_DIR$/cfy/tool.py" />
+    <entry file="file://$PROJECT_DIR$/cfy/cfg.py" />
+    <entry file="file://$PROJECT_DIR$/module.py" />
+    <entry file="file://$PROJECT_DIR$/cfy/detect1.py" />
+    <entry file="file://$PROJECT_DIR$/darknet53.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="-2266">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/data/coco/test01.py" />
+    <entry file="file://$PROJECT_DIR$/camera_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-end-line="43" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/4.jpg">
+    <entry file="file://$PROJECT_DIR$/coco_convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/torch/nn/modules/loss.py" />
+    <entry file="file://$PROJECT_DIR$/../Anaconda3/Lib/site-packages/torch/nn/modules/module.py" />
+    <entry file="file://$PROJECT_DIR$/data/images/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycocotools/coco.py">
+    <entry file="file://$PROJECT_DIR$/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#2404#2415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/label.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-1683">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/label_pro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="696">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2169">
-          <caret line="1378" selection-start-line="1378" selection-end-line="1378" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="492" selection-start-line="492" selection-end-line="492" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/change_xml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/torch/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="1220" column="4" selection-start-line="1220" selection-start-column="4" selection-end-line="1220" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/label.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/PIL/ImageFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="252" column="4" selection-start-line="252" selection-start-column="4" selection-end-line="252" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cfg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="752" selection-start-line="752" selection-end-line="752" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/PIL/ImageDraw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/pic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convert_txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/numpy/core/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="415" selection-start-line="415" selection-end-line="415" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Darknet53.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trainer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="58">
+          <caret line="5" column="5" selection-start-line="5" selection-end-line="5" selection-end-column="33" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coco_pro/process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="87" column="23" lean-forward="true" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="986">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/images/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/coco_label.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
